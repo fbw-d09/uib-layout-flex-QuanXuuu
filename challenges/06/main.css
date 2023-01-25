@@ -4,6 +4,15 @@ body {
   border: 5px solid red;
 }
 
+main
+{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  align-items: center;
+  justify-content: center;
+}
+
 div {
   height: 100px;
   width: 150px;
